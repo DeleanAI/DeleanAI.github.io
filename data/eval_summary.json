@@ -1,0 +1,35 @@
+{
+  "agent": "claude-code",
+  "model": "claude-opus-4-6",
+  "num_instances": 2,
+  "total_passed": 2,
+  "total_failed": 0,
+  "pass_rate": 1.0,
+  "eval_elapsed_seconds": 213.4,
+  "token_usage": {
+    "total_input_tokens": 131296,
+    "total_output_tokens": 49477,
+    "cache_creation_input_tokens": 179045,
+    "cache_read_input_tokens": 3110670,
+    "total_tokens": 3470488,
+    "cost_usd": 5.08
+  },
+  "instance_results": [
+    {
+      "instance_id": "instance_python__cpython-4a153a1d3b18803a684cd1bcc2cdf3ede3dbae19-vnan",
+      "passed": true,
+      "elapsed_seconds": 877.3,
+      "model_patch_lines": 184,
+      "status": "completed",
+      "cost_usd": 1.82910625
+    },
+    {
+      "instance_id": "instance_redis__redis-0270abda82555ddb3d4a1f5509600725408226ba-vnan",
+      "passed": true,
+      "elapsed_seconds": 596.4,
+      "model_patch_lines": 2940,
+      "status": "completed",
+      "cost_usd": 3.25
+    }
+  ]
+}
